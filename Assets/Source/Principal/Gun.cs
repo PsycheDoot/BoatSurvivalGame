@@ -1,6 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public class GunEnum {
+
+}
+
+public class GunType {
+    
+}
+
+public enum AmmoType : int {
+    None,
+    _9mm,
+    _38cal,
+    _50cal
+};
+
 public class Gun {
     //  State keeping
     private string Name;
